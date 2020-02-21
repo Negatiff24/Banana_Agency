@@ -1,0 +1,59 @@
+header {
+	background-color: salmon;
+	box-shadow: 0 5px 10px #565656;
+}
+
+header a {
+	color: white;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	height: 60px;
+}
+
+.header__logo {
+	font-weight: 900;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.header__link {
+	margin-left: 15px;
+}
+
+.burger {
+	display: none;
+}
+
+@media screen and (max-width: 767px) {
+	header nav {
+		display: none;
+	}
+
+	.burger {
+		display: block;
+		height: 30px;
+		width: 30px;
+		position: relative;
+
+	}
+
+	.meat {
+		height: 4px;
+		width: 20px;
+		background-color: white;
+		position: absolute;
+	}
+
+	.meat.-second {
+		top: 12px;
+	}
+
+	.meat.-third {
+		top: 24px;
+	}
+}
