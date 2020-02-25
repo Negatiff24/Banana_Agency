@@ -65,7 +65,7 @@
 	}
 
 	.item {
-		height: 460px;
+		height: 310px;
 	}
 
 	.product__title {
@@ -77,7 +77,7 @@
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 520px) {
 	.list {
 		flex-direction: column;
 	}
